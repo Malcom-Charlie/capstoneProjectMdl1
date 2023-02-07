@@ -1,0 +1,99 @@
+:root {
+  --black: #272a31;
+  --orange: #ec5242;
+  --grey: #d3d3d3;
+  --mainFont: 'Lato', sans-serif;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: var(--mainFont);
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.topPageDiv {
+  display: none;
+}
+
+.topPage__img {
+  padding: 7px;
+}
+
+.topPage__text {
+  padding: 1px 5px;
+}
+
+.navbar {
+  display: none;
+}
+
+.hamburger {
+  padding: 10px;
+}
+
+.line {
+  width: 25px;
+  height: 5px;
+  background: var(--black);
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.container-fluid {
+  /* width: 20%; */
+}
+
+header {
+  background-image: url(./elements/bckgrnd1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-text {
+  width: 70%;
+  padding: 90px 3px;
+}
+
+.main-text__title {
+  background-image: url(./elements/bckgrnd2.jpeg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-text__dates,
+.main-text__location {
+  color: var(--black);
+}
+
+.main-text__location {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .topPageDiv {
+    display: flex;
+    background-color: var(--black);
+    color: var(--grey);
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+}
