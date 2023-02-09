@@ -96,9 +96,6 @@ body {
 .nav-link {
   color: var(--grey);
 }
-.navbar {
-  --bs-navbar-hover-color: #ec5342c8;
-}
 
 header {
   background-image: url(./elements/bckgrnd8.jpeg);
@@ -116,7 +113,6 @@ header {
 .main-text__title {
   background-image: url(./elements/bckgrndalpha.svg);
   -webkit-background-clip: text;
-  background-clip: none;
   -webkit-text-fill-color: transparent;
   font-size: 46px;
   text-transform: uppercase;
@@ -159,7 +155,6 @@ header {
   display: flex;
   background-image: url(./elements/bckgrnd6.jpeg);
   -webkit-background-clip: text;
-  background-clip: none;
   -webkit-text-fill-color: transparent;
   font-size: 46px;
   text-transform: uppercase;
@@ -225,7 +220,7 @@ header {
   text-align: center;
 }
 
-.summit-section__images{
+.summit-section__images {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -254,6 +249,7 @@ header {
 
 .program-card__title {
   color: var(--orange);
+  font-weight: bold;
 }
 
 .program-container {
@@ -270,7 +266,6 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: var(--black);
-  align-items: center;
   color: var(--grey);
   gap: 13px;
   padding: 15px;
@@ -281,10 +276,6 @@ header {
   width: 50%;
   height: 12vw;
   object-fit: cover;
-}
-
-.program-card__title {
-  font-weight: bold;
 }
 
 .program-link {
@@ -328,7 +319,6 @@ header {
 .speaker-card__text {
   display: flex;
   flex-direction: column;
-
 }
 
 .speaker-card__title {
@@ -420,6 +410,7 @@ header {
 
   .navbar {
     display: flex;
+    --bs-navbar-hover-color: #ec5342c8;
   }
 
   .bg-light {
@@ -461,10 +452,6 @@ header {
     display: none;
   }
 
-  .footer-logo {
-    height: fit-content;
-  }
-
   .footer-copyright img {
     width: 15%;
   }
@@ -485,5 +472,4 @@ header {
     width: 45%;
     gap: 20px;
   }
-
 }
