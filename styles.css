@@ -354,7 +354,7 @@ header {
 .footer-partners__logo {
   display: flex;
   justify-content: space-evenly;
-  padding: 18px 0px;
+  padding: 18px 1px;
 }
 
 .partner-logos {
@@ -410,6 +410,7 @@ header {
 
   .navbar {
     display: flex;
+
     --bs-navbar-hover-color: #ec5342c8;
   }
 
