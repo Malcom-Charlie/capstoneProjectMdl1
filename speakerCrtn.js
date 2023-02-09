@@ -1,7 +1,7 @@
 const speakerGenerator = (object) => {
 // Function to go through data while
 // creating DOM elements needed
-  const card = document.createElement('div');
+  const card = document.createElement('article');
   card.classList.add('speaker-card');
   const containerD = document.createElement('div');
   containerD.classList.add('speaker-card__img');
