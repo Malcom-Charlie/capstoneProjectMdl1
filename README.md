@@ -110,7 +110,7 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-> Before getting started [watch this video](https://www.loom.com/share/ca4ec86dd93447ff8f1e2fbf73e5637b) to better understand this project.
+> Before getting started [watch this video](https://www.loom.com/share/3fef5b6f667a4242a55a4e69d6353973) to better understand this project.
 
 > To make use of this portfolio follow the following guidelines.
 
@@ -186,6 +186,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Much appreciation to the following entities & Individuals:
 
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 - Coding partner: Thank you fellow coding partner for the help dealing with blockers. 
 - Figma: For the elaborate website designs.
 - Adobe: For easy to use font links.
