@@ -25,6 +25,13 @@ body {
   max-width: 70%;
 }
 
+.navbar>
+.container {
+  max-width: 100%;
+  background: white;
+  padding: 0.5em 7em;
+}
+
 .modalcpst {
   background-color: rgba(236, 82, 66, 0.9);
   height: 100vh;
@@ -103,6 +110,7 @@ body {
 
 .main-text {
   padding: 10% 7%;
+  background: rgba(247, 247, 248, 0.8);
 }
 
 .hello-txt {
@@ -490,8 +498,21 @@ body {
     color: var(--grey);
   }
 
+  .index {
+    background-color: #fff;
+    color: var(--black);
+  }
+
+  .index-footer__title {
+    color: var(--black);
+  }
+
   .footer-title {
     color: var(--grey);
+  }
+
+  .main-text {
+    padding: 10% 20%;
   }
 
   .main-text__title {
